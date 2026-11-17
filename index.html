@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Juveria Mansuri - Web Developer Portfolio">
+    <title>Juveria Mansuri | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="#home" class="logo">Juveria<span>.</span></a>
+        <div class="menu" id="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button class="menu-btn" id="menuBtn">☰</button>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Juveria Mansuri</span></h1>
+        <h2>I'm a <span id="typing">Web Developer</span></h2>
+        <p>
+            A passionate IT student exploring technology,
+            designing creative websites and building digital experiences.
+        </p>
+        <div class="hero-buttons">
+            <a href="#projects" class="btn">Explore My Work</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <div class="profile-circle">
+            <div class="avatar">JM</div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <p class="subtitle">GET TO KNOW ME</p>
+    <h2 class="section-title">About <span>Me</span></h2>
+
+    <div class="about-box">
+        <div>
+            <h3>Who Am I?</h3>
+            <p>
+                Hello! I'm Juveria Mansuri, a TY BSc IT student
+                passionate about web development and emerging technologies.
+                I enjoy creating attractive, responsive and user-friendly
+                websites using modern web technologies.
+            </p>
+            <p>
+                I am continuously improving my technical skills through
+                practical projects and internships. My long-term goal
+                is to grow in the fields of AI Engineering and DevOps.
+            </p>
+        </div>
+
+        <div class="about-details">
+            <p><strong>Name:</strong> Juveria Mansuri</p>
+            <p><strong>Education:</strong> TY BSc IT</p>
+            <p><strong>Field:</strong> Information Technology</p>
+            <p><strong>Interest:</strong> Web Development, AI & DevOps</p>
+            <p><strong>Location:</strong> Mumbai, India</p>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="section">
+    <p class="subtitle">WHAT I KNOW</p>
+    <h2 class="section-title">My <span>Skills</span></h2>
+
+    <div class="skills-container">
+        <div class="skill-card">HTML <span>90%</span><div class="progress"><div style="width:90%"></div></div></div>
+        <div class="skill-card">CSS <span>85%</span><div class="progress"><div style="width:85%"></div></div></div>
+        <div class="skill-card">JavaScript <span>75%</span><div class="progress"><div style="width:75%"></div></div></div>
+        <div class="skill-card">Python <span>60%</span><div class="progress"><div style="width:60%"></div></div></div>
+        <div class="skill-card">Java <span>65%</span><div class="progress"><div style="width:65%"></div></div></div>
+        <div class="skill-card">Web Development <span>80%</span><div class="progress"><div style="width:80%"></div></div></div>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <p class="subtitle">MY RECENT WORK</p>
+    <h2 class="section-title">My <span>Projects</span></h2>
+
+    <div class="projects-container">
+        <div class="project-card">
+            <div class="project-icon">🎮</div>
+            <h3>Tic Tac Toe Game</h3>
+            <p>An interactive two-player game built using HTML, CSS and JavaScript.</p>
+            <a href="https://juveriamansuri123-ui.github.io/PRODIGY_WD_03/" target="_blank">View Live Project ↗</a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-icon">🌐</div>
+            <h3>Creative Business Website</h3>
+            <p>A responsive website showcasing creative digital solutions and modern web design.</p>
+            <a href="https://github.com/" target="_blank">View on GitHub ↗</a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-icon">🔐</div>
+            <h3>AI Smart Identity Gate</h3>
+            <p>A face recognition based smart access control project using Python and OpenCV.</p>
+            <a href="https://github.com/" target="_blank">View on GitHub ↗</a>
+        </div>
+    </div>
+</section>
+
+<section id="experience" class="section">
+    <p class="subtitle">MY JOURNEY</p>
+    <h2 class="section-title">Education & <span>Experience</span></h2>
+
+    <div class="timeline">
+        <div class="timeline-card">
+            <h3>Bachelor of Science in Information Technology</h3>
+            <p>TY BSc IT | Currently Pursuing</p>
+            <span>Information Technology</span>
+        </div>
+
+        <div class="timeline-card">
+            <h3>Web Development Intern</h3>
+            <p>Prodigy InfoTech</p>
+            <span>Practical projects and hands-on web development experience</span>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <p class="subtitle">LET'S CONNECT</p>
+    <h2 class="section-title">Contact <span>Me</span></h2>
+
+    <div class="contact-box">
+        <p>Have a project or opportunity in mind? Let's connect!</p>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/" target="_blank">GitHub</a>
+            <a href="mailto:your-email@gmail.com">Email</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Juveria Mansuri | Designed with 💜</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
